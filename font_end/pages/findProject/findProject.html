@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>找队员</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="../../global/packages/layui/css/layui.css">
+    <link rel="stylesheet" href="./findProject.css">
+    <script src="../../global/packages/layui/layui.js"></script>
+    <script src="../../global/js/utils.js"></script>
+</head>
+
+<body>
+
+    <div class="layui-container">
+        <div class="layui-row">
+            <div class="layui-col-md12" id="nav">
+            </div>
+        </div>
+
+        <div class="layui-row">
+            <div class="layui-col-md12">
+                <div class="layui-collapse">
+                    <div class="layui-colla-item">
+                        <h2 class="layui-colla-title">按名称查找</h2>
+                        <div class="layui-colla-content">
+                            <div class="layui-row">
+                                <div class="layui-col-md6 layui-col-md-offset3">
+                                    <div class="layui-form-item" style="display: flex;align-items: center;">
+                                        <!-- <label class="layui-form-label">按名称查找</label> -->
+                                        <div class="layui-input-inline" style="width: 70%;">
+                                            <input type="password" name="password" required lay-verify="required"
+                                                placeholder="请输入名称" autocomplete="off" class="layui-input"
+                                                maxlength="10">
+                                        </div>
+                                        <button class="layui-btn layui-btn-normal layui-btn-disabled">查找</button>
+                                        <!-- <div class="layui-form-mid layui-word-aux"> -->
+                                        <!-- </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layui-colla-item">
+                        <h2 class="layui-colla-title">按项目所属领域查找</h2>
+                        <div class="layui-colla-content layui-show" id="typeSearch">
+                            
+                        </div>
+                    </div>
+                    <div class="layui-colla-item">
+                        <h2 class="layui-colla-title">按学校查找</h2>
+                        <div class="layui-colla-content layui-show" id="schoolSearch">内容区域</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-row">
+            <div class="layui-col-md12" id="projectList">
+                
+            </div>
+        </div>
+
+        <div class="layui-row">
+            <div class="layui-col-md12" style="display: flex;align-items: center;justify-content: center;">
+                <div id="pagesIndex"></div>
+            </div>
+        </div>
+
+        <div class="layui-row" style="height:8vh">
+            <div class="layui-col-md12"
+                style="background-color:#393D49;height:100%;display: flex;align-items: center;justify-content: center;">
+                <a href="http://www.beian.miit.gov.cn/" style="color: white;" target="_blank">粤ICP备19076692号</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="./findProject.js"></script>
+    <script src="../../global/js/nav.js"></script>
+</body>
+
+</html>

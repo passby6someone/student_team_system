@@ -1,0 +1,19 @@
+.layui-card-body a>img{
+    height: 208px;
+    overflow: hidden;
+}
+.layui-card-header{
+    width: 80%;
+    word-wrap: none;
+    word-break: keep-all;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.layui-card .layui-card{
+    box-shadow: 3px 3px 5px #e2e2e2;
+}
+/* .layui-card .layui-card:hover{
+    transform: 0.5s;
+    box-shadow: -3px -3px 5px #2F4056;
+} */

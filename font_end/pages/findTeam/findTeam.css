@@ -1,0 +1,23 @@
+/* a{
+    height: 20px;
+} */
+a:hover{
+    text-decoration: underline;
+}
+.layui-colla-content a{
+    padding: 10px 0px;
+    font-size: 1.2em;
+}
+#projectList .layui-row{
+    height: 80px;
+    /* line-height: 60px; */
+}
+#projectList a:hover{
+    color: #01AAED;
+    /* line-height: 60px; */
+}
+#projectList div[class^="layui-col-md"]{
+    color: inherit;
+    text-align: center;
+    line-height: 80px;
+}

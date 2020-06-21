@@ -1,0 +1,6 @@
+.max{
+    height: calc(100vh - 8vh - 60px);
+}
+.layui-tab-content{
+    padding: 0px;
+}

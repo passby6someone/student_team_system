@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>编辑项目</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="../../../global/packages/layui/css/layui.css">
+    <link rel="stylesheet" href="./createProject.css">
+    <script src="../../../global/packages/layui/layui.js"></script>
+    <script src="../../../global/js/utils.js"></script>
+</head>
+
+<body>
+
+    <div class="layui-container">
+
+        <div class="layui-row" style="height: 60px;">
+            <div class="layui-col-md12"
+                style="background-color:#393D49;height:100%;display: flex;align-items: center;padding-left: 20px;">
+                <a href="javascript:window.close();"><span class="layui-icon layui-icon-left"
+                        style="color: white;font-size: 30px;"></span></a>
+            </div>
+        </div>
+
+        <div style="min-height: calc(100vh - 60px - 8vh);">
+            <div class="layui-card">
+                <div class="layui-card-header">
+                    <h1 style="font-size: 20px;font-weight: 600;">编辑项目</h1>
+                </div>
+                <div class="layui-card-body">
+                    <form class="layui-form" action="" lay-filter="form0">
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">项目名称</label>
+                            <div class="layui-input-block">
+                                <input type="text" name="name" required lay-verify="required" placeholder="请输入项目名称"
+                                    autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">所属学校</label>
+                            <div class="layui-input-block">
+                                <input type="text" name="school" required lay-verify="required" placeholder="请输入所属学校"
+                                    autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">所属领域</label>
+                            <div class="layui-input-block">
+                                <input type="text" name="industry" required lay-verify="required" placeholder="请输入所属领域"
+                                    autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item" style="display: none;">
+                            <label class="layui-form-label">所属团队</label>
+                            <div class="layui-input-block">
+                                <input type="text" name="id" required lay-verify="required" placeholder="请输入所属团队名称"
+                                    autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item layui-form-text">
+                            <label class="layui-form-label">项目概述</label>
+                            <div class="layui-input-block">
+                                <textarea name="introduction" placeholder="请输入项目概述" class="layui-textarea"></textarea>
+                            </div>
+                        </div>
+                        <div class="layui-form-item">
+                            <label class="layui-form-label">是否招人</label>
+                            <div class="layui-input-block">
+                                <input type="radio" name="isLookforperson" value="y" title="是" checked>
+                                <input type="radio" name="isLookforperson" value="n" title="否">
+                            </div>
+                        </div>
+                        
+                        <!-- <div class="layui-form-item" style="display: none;">
+                            <label class="layui-form-label">项目名称</label>
+                            <div class="layui-input-block">
+                                <input type="text" name="id" required lay-verify="required" placeholder="请输入项目名称"
+                                    autocomplete="off" class="layui-input">
+                            </div>
+                        </div>
+                        <div class="layui-form-item" style="display: none;">
+                            <label class="layui-form-label">项目名称</label>
+                            <div class="layui-input-block">
+                                <input type="text" name="team_id" required lay-verify="required" placeholder="请输入项目名称"
+                                    autocomplete="off" class="layui-input">
+                            </div>
+                        </div> -->
+                        <div class="layui-form-item">
+                            <label class="layui-form-label"></label>
+                            <div class="layui-input-block">
+                                <button class="layui-btn" lay-submit lay-filter="form">提交</button>
+                                <button type="reset" class="layui-btn layui-btn-primary">重置</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="layui-row" style="height:8vh">
+            <div class="layui-col-md12"
+                style="background-color:#393D49;height:100%;display: flex;align-items: center;justify-content: center;">
+                <a href="http://www.beian.miit.gov.cn/" style="color: white;" target="_blank">粤ICP备19076692号</a>
+            </div>
+        </div>
+
+    </div>
+    <script src="./editTeam.js"></script>
+</body>
+
+</html>

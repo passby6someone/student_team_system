@@ -1,0 +1,17 @@
+.item-title{
+    text-align: center;
+    color: #01AAED;
+}
+.item-title:hover{
+    text-decoration: underline;
+}
+.layui-card:hover{
+    box-shadow: 5px 5px 5px #c2c2c2;
+}
+h2{
+    word-break: keep-all;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 0px 20px;
+}

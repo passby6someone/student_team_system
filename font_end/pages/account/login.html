@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>首页</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="../../global/packages/layui/css/layui.css">
+    <!-- <link rel="stylesheet" href="./index.css"> -->
+    <script src="../../global/packages/layui/layui.js"></script>
+    <script src="../../global/js/utils.js"></script>
+</head>
+
+<body>
+    <div class="layui-container" style="height:100vh">
+
+        <div class="layui-row" style="height:10%">
+            <div class="layui-col-md12" style="background-color:#393D49;height:100%;"></div>
+        </div>
+        <div class="layui-row" style="height:80%;background-color: #1E9FFF;">
+            <div class="layui-col-md6" style="height:100%;display: flex;align-items: center;justify-content: center;flex-direction: column;">
+                <div  style="border-radius: 64px;border: 1px solid #1E9FFF;overflow: hidden;">
+                    <img src="../../images/logo.png" alt="">
+                </div>
+                <h1 style="color: white;margin-top: 20px;">"队吧"高校科研组队</h1>
+            </div>
+            <div class="layui-col-md6" style="height:100%;display: flex;align-items: center;">
+                <!-- <div class="layui-row" style="height:100%"> -->
+                    <!-- <div class="layui-col-md12"> -->
+                        <form class="layui-form" action="" style="background-color: white;padding: 40px;width: 65%;">
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">用户名：</label>
+                                <div class="layui-input-block">
+                                    <input type="text" name="username" class="layui-input" placeholder="请输入用户名" required lay-verify="required">
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">密码：</label>
+                                <div class="layui-input-block">
+                                    <input type="password" name="password" class="layui-input" placeholder="请输入密码" required lay-verify="required">
+                                </div>
+                            </div>
+                            <!-- <div class="layui-form-item">
+                                <label class="layui-form-label">确认密码：</label>
+                                <div class="layui-input-block">
+                                    <input type="password" class="layui-input" placeholder="请再次输入密码">
+                                </div>
+                            </div> -->
+                            <div class="layui-form-item">
+                                <div class="layui-input-block">
+                                    <button class="layui-btn" lay-submit lay-filter="formDemo">登录</button>
+                                    <a href="./signup.html">
+                                        <button type="button" class="layui-btn layui-btn-primary">注册</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </form>
+                    <!-- </div> -->
+                <!-- </div> -->
+            </div>
+        </div>
+
+        <div class="layui-row" style="height:10%">
+            
+            <div class="layui-col-md12" style="background-color:#393D49;height:100%;display: flex;align-items: center;justify-content: center;">
+                <a href="http://www.beian.miit.gov.cn/" style="color: white;" target="_blank">粤ICP备19076692号</a>
+            </div>
+        </div>
+    </div>
+    <script src="./login.js"></script>
+</body>
+
+</html>

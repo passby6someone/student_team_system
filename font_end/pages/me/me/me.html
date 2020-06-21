@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>个人中心</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <link rel="stylesheet" href="../../../global/packages/layui/css/layui.css">
+  <link rel="stylesheet" href="./me.css">
+  <script src="../../../global/packages/layui/layui.js"></script>
+</head>
+
+<body>
+  <div class="layui-container">
+    <div class="layui-row">
+      <div class="layui-col-md12" id="nav">
+      </div>
+    </div>
+
+    <div class="layui-row">
+      <div class="layui-col-md2 max">
+        <ul class="layui-nav layui-nav-tree" lay-filter="test" style="width: 100%;height: 100%;">
+          <!-- 侧边导航: <ul class="layui-nav layui-nav-tree layui-nav-side"> -->
+          <li class="layui-nav-item">
+            <a href="../proAndTeam/proAndTeam.html?type=pro" target="ifr">我的项目</a>
+            <!-- <dl class="layui-nav-child">
+              <dd><a href="javascript:;" onclick="changeTab(this)" data-tab="tab1">我创建的项目</a></dd>
+              <dd><a href="javascript:;" onclick="changeTab(this)" data-tab="tab2">我参与的项目</a></dd>
+            </dl> -->
+          </li>
+          <li class="layui-nav-item">
+            <a href="../proAndTeam/proAndTeam.html?type=team" target="ifr">我的团队</a>
+            <!-- <dl class="layui-nav-child">
+              <dd><a href="javascript:;" onclick="changeTab(this)" data-tab="tab1">我创建的团队</a></dd>
+              <dd><a href="javascript:;" onclick="changeTab(this)" data-tab="tab2">我加入的团队</a></dd>
+            </dl> -->
+          </li>
+          <li class="layui-nav-item"><a href="../message/message.html" target="ifr">消息</a></li>
+          <li class="layui-nav-item"><a href="../userInfo/userInfo.html" target="ifr">个人信息设置</a></li>
+        </ul>
+      </div>
+      <div class="layui-col-md10 max">
+        <iframe src="" frameborder="0" style="height: 100%;width: 100%;" id="ifr" name="ifr"></iframe>
+      </div>
+    </div>
+
+    <div class="layui-row" style="height:8vh">
+      <div class="layui-col-md12"
+        style="background-color:#393D49;height:100%;display: flex;align-items: center;justify-content: center;">
+        <a href="http://www.beian.miit.gov.cn/" style="color: white;" target="_blank">粤ICP备19076692号</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="./me.js"></script>
+  <script src="../../../global/js/nav.js"></script>
+</body>
+
+</html>

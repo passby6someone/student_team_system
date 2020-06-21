@@ -1,0 +1,18 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect height="514" width="514" y="-1" x="-1" fill="#ffffff" id="canvas_background"/>
+  <g y="0" x="0" height="100%" width="100%" display="none" overflow="visible" id="canvasGrid">
+   <rect height="100%" width="100%" y="0" x="0" stroke-width="0" fill="url(#gridpattern)"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect rx="100" height="501.994" width="509" y="8.9557" x="3.25" stroke-width="1.5" stroke="#33666c" fill="#0000ff" id="svg_1"/>
+  <text xml:space="preserve" y="403.5972" x="375.1122" transform="matrix(15.6997, 0, 0, 7.33896, -5230.76, -1928.29)" text-anchor="start" stroke-width="0" stroke-opacity="null" stroke="#33666c" fill="#000000" font-size="24px" font-family="Helvetica,Arial,sans-serif" id="svg_2"/>
+  <text xml:space="preserve" y="305.95" x="347.5" transform="matrix(18.6545, 0, 0, 9.54761, -6325.29, -2597.52)" text-anchor="start" stroke-width="0" stroke-opacity="null" stroke="#33666c" fill="#000000" font-size="24px" font-family="Helvetica,Arial,sans-serif" id="svg_3"/>
+  <text xml:space="preserve" y="326.2562" x="375.4128" transform="matrix(21.3644, 0, 0, 11.0568, -6620.89, -2760.24)" text-anchor="start" stroke-width="1.5" stroke="#33666c" fill="#0000ff" font-size="24px" font-family="Helvetica,Arial,sans-serif" id="svg_4"/>
+  <text xml:space="preserve" y="160.5698" x="157.8588" transform="matrix(10.8441, 0, 0, 9.70986, -1584.47, -1232.39)" text-anchor="start" stroke-width="2" stroke="#ffffff" fill="#000000" style="cursor: move; pointer-events: inherit;" font-style="normal" font-size="24px" font-family=""Palatino Linotype","Book Antiqua",Palatino,serif" id="svg_5">队</text>
+ </g>
+</svg>
